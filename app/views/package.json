@@ -1,0 +1,61 @@
+{
+  "name": "wpvc-plugin",
+  "version": "5.0.0",
+  "description": "online voting contest",
+  "main": "wpvc.js",
+  "scripts": {
+    "build": "wp-scripts build",
+    "check-engines": "wp-scripts check-engines",
+    "check-licenses": "wp-scripts check-licenses",
+    "lint:css": "wp-scripts lint-style",
+    "lint:js": "wp-scripts lint-js",
+    "lint:pkg-json": "wp-scripts lint-pkg-json",
+    "start": "wp-scripts start",
+    "test:e2e": "wp-scripts test-e2e",
+    "test:unit": "wp-scripts test-unit-js"
+  },
+  "keywords": [
+    "voting",
+    "contest"
+  ],
+  "author": "ohiowebtech",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "@babel/core": "^7.11.4",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.10.4",
+    "@wordpress/babel-preset-default": "^4.17.0",
+    "@wordpress/scripts": "^12.1.1",
+    "babel-loader": "^8.1.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.10.4",
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/data-grid": "^4.0.0-alpha.8",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.56",
+    "@wordpress/url": "^2.17.0",
+    "copy-to-clipboard": "^3.3.1",
+    "i18next": "^19.7.0",
+    "i18next-browser-languagedetector": "^6.0.1",
+    "i18next-xhr-backend": "^3.2.2",
+    "immer": "^7.0.9",
+    "jodit-react": "^1.0.64",
+    "material-ui-color-picker": "^3.5.1",
+    "mui-datatables": "^3.7.1",
+    "mui-rte": "^1.24.0",
+    "puppeteer": "^5.3.1",
+    "react-compound-timer": "^1.2.0",
+    "react-data-grid": "^7.0.0-canary.29",
+    "react-draft-wysiwyg": "^1.14.5",
+    "react-grid-layout": "^1.1.1",
+    "react-i18next": "^11.7.2",
+    "react-redux": "^7.2.1",
+    "react-rte": "^0.16.3",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "save": "^2.4.0",
+    "typescript": "^4.0.3"
+  }
+}

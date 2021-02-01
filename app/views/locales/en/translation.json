@@ -1,0 +1,32 @@
+{
+    "Version": "Version",
+    "Author_Site":"Author Site",
+    "settings":"Settings",
+    "common_settings":"Common Settings",
+    "custom_end_point":"Custom Endpoint",
+    "save":"Save",
+    "query_var":"Query Variable",
+
+    "error_users":"Failed to load the users",
+    "user_header":"User Details",
+    "name":"Name : ",
+    "user_name":"User Name : ",
+    "email":"Email : ",
+    "phone":"Phone : ",
+    "website":"Website : ",
+    "company":"Company Name : ",
+    "address":"Address : ",
+    "suite":"Suite : ",
+    "street":"Street : ",
+    "city":"City : ",
+    "zip":"Zip code : ",
+    "previous":"Previous",
+    "next":"Next",
+    "back":"Back"
+
+
+
+
+
+}
+  

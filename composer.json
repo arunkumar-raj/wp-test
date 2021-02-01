@@ -1,0 +1,11 @@
+{
+  "require-dev": {
+    "brain/monkey": "~2.0.0",
+    "phpunit/phpunit": "9.5"
+  },
+  "autoload": {
+      "psr-4": {
+        "App\\":"app"
+      }
+  }
+}

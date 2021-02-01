@@ -1,0 +1,16 @@
+/*================ Admin Css ==============*/
+.wpinp_admin_container{background: #ffffff;}
+.wpinp_app_bar{background: rgb(2,0,36) !important;background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(160,199,82,1) 0%, rgba(58,145,156,1) 100%) !important;}
+.wpinp_admin_instc{background: rgb(2,0,36) !important;background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(160,199,82,1) 0%, rgba(58,145,156,1) 100%) !important;padding: 20px;line-height: 10px !important;color: #fff;border: 1px solid #eaeaea;text-transform: uppercase;font-weight: 700 !important;font-size: 18px !important;}
+.wpinp_setting_acc{margin-top: 20px;padding-bottom: 50px;}
+.wpinp_setting_acc h4 {color: #3f51b5;font-size: 16px;font-weight: bold;text-transform: uppercase;margin: 25px;border-bottom: 1px solid #3f51b5;padding-bottom: 15px;}
+.wpinp_form_grid{margin: 25px;}
+.wpinp_form_input{width:400px;}
+
+
+/**************** Media Query ***************/
+@media (min-width: 1280px){
+    .wpinp_admin_container {
+        max-width: 1350px !important;
+    }
+}
